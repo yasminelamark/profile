@@ -1,0 +1,47 @@
+@charset
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color:  hsl(148, 38%, 75%)
+}
+
+
+.logo{
+    display: flex;
+    width: 10%;
+    height: 0%;
+    margin-top: 80px;
+    margin-left: 500px;
+}
+.container_header{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--bgcolor);
+    align-items: center;
+    padding: 10px;
+}
+
+ul li{
+margin-left: 10px;
+}
+#contato{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: center;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+   padding-bottom: 30px;
+    
+}
+
+  
+  
+
+    

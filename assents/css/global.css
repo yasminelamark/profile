@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: inherit;
+    list-style-type: none;
+}
+
+html{
+    width: 100%;
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+
+button{
+    background-color: #005a5c;
+}
