@@ -1,4 +1,4 @@
-@charset
+@charset "UTF-8";
 *{
     margin: 0;
     padding: 0;
@@ -11,10 +11,12 @@ body{
 
 .logo{
     display: flex;
+    justify-content: ;
     width: 10%;
     height: 0%;
-    margin-top: 80px;
+    margin-top: 0px;
     margin-left: 500px;
+
 }
 .container_header{
     display: flex;
@@ -39,6 +41,54 @@ form div{
     flex-direction: column;
    padding-bottom: 30px;
     
+}
+#menu{
+    display: flex;
+
+
+}
+
+.borda {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.sobre_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
   

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta name="description" content="Página de Contato do Portfólio">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assents/css/style.css"> <!-- Caminho para o CSS -->
+    <title>Contato - Portfólio</title>
+</head>
+
+<body>
+    <header>
+        <div id="header" class="container_header">
+            <div id="titulo" class="flex">
+                <h1>Portfólio</h1>
+            </div>
+
+            <div id="menu">
+                <nav>
+                    <ul class="hover flex">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="contato" class="borda">
+            <h2>Entre em contato comigo</h2>
+            <form action="" method="POST">
+                <div>
+                    <input type="hidden" name="_next" value="">
+                    <input type="hidden" name="_captcha" value="false">
+                </div>
+                <div>
+                    <label for="nome"><strong>Nome: </strong></label>
+                    <input id="nome" type="text" name="name" placeholder="Digite seu nome" required>
+                </div>
+                <div>
+                    <label for="email"><strong>Email: </strong></label>
+                    <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+                </div>
+                <div>
+                    <label for="subject"><strong>Assunto: </strong></label>
+                    <input id="subject" type="text" name="subject" placeholder="Digite o título da mensagem" required>
+                </div>
+                <div>
+                    <label for="message"><strong>Mensagem: </strong></label>
+                    <textarea id="message" name="message" placeholder="Digite sua mensagem" required></textarea>
+                </div>
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        Feito com ❤ por Yasmine Lamark - 2024
+    </footer>
+</body>
+
+</html>
