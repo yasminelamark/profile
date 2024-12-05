@@ -6,61 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfólio de Yasmine Lamark, desenvolvedora FullStack.">
     <meta name="keywords" content="portfólio, tecnologia, desenvolvimento, FullStack, Yasmine Lamark">
-    <title>Portfólio de Yasmine Lamark</title>
+    <title>Portfólio Yasmine Lamark</title>
     <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/styles_mq.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
-
 </head>
 
 <body>
+    <!-- Header Section -->
     <header>
-        <h1>Portfólio</h1>
-        <nav>
-            <span id="burger" class="material-symbols-outlined" aria-label="Menu" onclick="toggleMenu()">menu</span>
-            <menu id="itens" aria-hidden="true">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="portfolio.html">Sobre</a></li>
-                    <li><a href="experiencia.html">Projetos</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                </ul>
-            </menu>
-        </nav>
+        <div class="container">
+            <h1>Portfólio de Yasmine Lamark</h1>
+            <nav>
+                <span id="burger" class="material-symbols-outlined" aria-label="Menu" onclick="toggleMenu()">menu</span>
+                <menu id="itens" aria-hidden="true">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="portfolio.html">Sobre</a></li>
+                        <li><a href="experiencia.html">Projetos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </menu>
+            </nav>
+        </div>
     </header>
 
+    <!-- Main Content Section -->
     <main>
-        <section>
+        <section class="introduction">
             <div class="image-container">
-                <img src="assets/avatar.png" alt="Meu avatar">
-                
-                <article>
-                    <h2>Quem sou eu?</h2>
-                    <p>
-                        Sou Yasmine Lamark, tenho 25 anos e atualmente estou em transição de carreira para a área de tecnologia.
-                        Recentemente, finalizei o Bootcamp de Desenvolvimento FullStack JavaScript na Generation, onde
-                        desenvolvi
-                        habilidades em backend e front-end, incluindo a criação de APIs.
-                    </p>
-                    <p>
-                        Além das habilidades técnicas, também desenvolvi importantes soft skills, como atenção aos detalhes,
-                        comunicação, persistência e trabalho em equipe, além de uma compreensão prática de metodologias ágeis.
-                        Estou entusiasmada para aplicar minhas habilidades em novos desafios e contribuir para o desenvolvimento
-                        de soluções inovadoras na área de tecnologia.
-                    </p>
-                </article>
+                <img src="assets/avatar.png" alt="Avatar de Yasmine Lamark" class="avatar">
+            </div>
 
+            <article>
+                <h2>Quem sou eu?</h2>
+                <p>
+                    Olá, sou Yasmine Lamark, tenho 25 anos e estou em transição para a área de tecnologia. Recentemente, terminei o
+                    Bootcamp de Desenvolvimento FullStack JavaScript na Generation, onde desenvolvi habilidades tanto em backend
+                    quanto em front-end, incluindo a criação de APIs.
+                </p>
+                <p>
+                    Durante esse processo, também aperfeiçoei minhas soft skills, como atenção aos detalhes, comunicação, persistência
+                    e trabalho em equipe. Agora, estou empolgada para aplicar meu conhecimento em novos desafios e contribuir para o
+                    desenvolvimento de soluções inovadoras na área de tecnologia.
+                </p>
+            </article>
         </section>
 
-
-
+        <!-- Call to Action Section -->
+        <section class="cta">
+            <h3>Vamos Conversar!</h3>
+            <p>Se você está em busca de um profissional apaixonado por tecnologia, inovação e desenvolvimento de soluções, entre em
+                contato comigo. Vamos discutir como posso contribuir para seus projetos.</p>
+        </section>
     </main>
 
+    <!-- Footer Section -->
     <footer>
-        <p>&copy; Yasmine Lamark - Portfólio - 2024</p>
+        <div class="container">
+            <p>&copy; 2024 Yasmine Lamark - Todos os direitos reservados.</p>
+        </div>
     </footer>
 
+    <!-- JavaScript -->
     <script>
         function toggleMenu() {
             const menu = document.getElementById('itens');
